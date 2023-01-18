@@ -25,16 +25,23 @@ Y equipos electrodomesticos para tu hogar
 
 Es un Ecomerce centrado en la tecnologia para un publico joven/adulto
 
-Kanit-Italic
+
+Kanit-Italic (Tipografia)
 https://fonts.google.com/specimen/Kanit?preview.text=StarElectric&preview.text_type=custom&query=kanit
 
 
+
+(Paleta de Colores)
 <palette>
 <color name='StarElectric2-1' rgb='EABE3F' r='234' g='190' b='63' />
 <color name='StarElectric2-2' rgb='272727' r='39' g='39' b='39' />
 <color name='StarElectric2-3' rgb='A3A3A3' r='163' g='163' b='163' />
 <color name='StarElectric2-4' rgb='2E58FF' r='46' g='88' b='255' />
 <color name='StarElectric2-5' rgb='BD00FF' r='189' g='0' b='255' />
-</palette>
+</palette> 
 
+
+
+FIGMA
 https://www.figma.com/file/fYRSp79Ikcg2MPRWZaB2Q2/StarElectric?node-id=1%3A3&t=3oBboqxcw0mRAtgu-1
+
