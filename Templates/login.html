@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>"Cart" StarElectrix</title>
+</head>
+<body>
+    <header class="BarradeNavegacion">
+        <div class="BNLogo">
+            <Ul><img src="StarElectric-logo.png" alt="Logo" height = 100% onclick="location.href='home.html'"></Ul>
+        </div>
+        <div class="BNBusqueda">
+            <ul>
+                <li><Input type="search" ></Input></li>
+            </ul>
+        </div>
+        <div class="BNOpciones">
+                <li><img src="Resourses/EstadoDeCuenta.png" alt="Estado/Cuenta" height = 50px onclick="location.href='login.html'"></li>
+                <li><img src="Resourses/BarraDeOpciones.png" alt="BarradeOpciones" height= 50px></li>
+        </div>
+    </header>
+    <main class="ContenedorLogin">
+            <h1>StarElectric</h1>
+            <form action="/Login" method="post" class="LoginForm">
+                <h3>Log In</h3>
+                <div class="LoginPart1">
+                    <label for="login"></label>
+
+                    <label for="UserName">Ingrese su Nombre de Usuario</label>
+                    <input type="text" name="UserName" id="UserName" placeholder="Usuario" required>
+
+                    <label for="Password">Ingrese su Contraseña</label>
+                    <input type="password" name="Password" id="Password" placeholder="Contraseña" required>
+                    <a href="home.html">¿Olvido su contraseña?</a>
+                </div>
+                <div class="LoginOpciones">
+                    <div class="LogCheck"><label class="check" for="checkbox">Keep me logged in</label>&nbsp
+                    <input type="checkbox"></div>
+                    <input type="submit" value="Login" class="LogButton">
+                    <p>¿Eres Nuevo/a? <a href="register.html">Registrate!</a></p>
+                </div>
+            </form>
+    </main>
+    <footer class="FooterContenedor">
+        <div class="FooterLinks">
+                <div class="FooterInformacion">
+                    <h3><a href="home.html">Centro de Ayuda</a></h3>
+                    <h3><a href="home.html">Mas sobre nosotros</a></h3>
+                    <h3><a href="home.html">Informacion de la Cuenta</a></h3>
+                    <h3><a href="home.html">Terminos y Condiciones de uso</a></h3>
+                    <h3><a href="home.html">Políticas de Privacidad</a></h3>
+                </div>
+                <div class="FooterLogo">
+                    <img src="StarElectric-logo.png" alt="StarElectric-logo" width="150px" height="150px" onclick="location.href='home.html'">
+                </div>
+        </div>
+        <div class="FooterContacto">
+                <img src="Resourses/IconTwiter.png" alt="Twitter" width="50px" height="50px" onclick="location.href='https://twitter.com'">
+                <img src="Resourses/IconInstagram.png" alt="Instagra" width="50px" height="50px" onclick="location.href='https://www.instagram.com'">
+                <img src="Resourses/IconFacebook.png" alt="Facebook" width="50px" height="50px" onclick="location.href='https://www.facebook.com'">
+                <img src="Resourses/IconLinkedIn.png" alt="Linkedin" width="50px" height="50px" onclick="location.href='https://www.linkedin.com'">
+                <img src="Resourses/IconWhatsApp.png" alt="WhatsApp" width="50px" height="50px" onclick="location.href='https://www.whatsapp.com'">
+        </div>  
+        <h6>Copyrigths 2022 © StarElectric - Todos Los Derechos Reservados</h6>
+    </footer>
+</body>
+</html>
